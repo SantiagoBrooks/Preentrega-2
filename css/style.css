@@ -1,0 +1,289 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+body{
+    font: 1em sans-serif;
+}
+
+header a{
+    margin-top: 20px;
+}
+header nav ul{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+}
+
+
+
+/* estilos del index */
+
+.main-Home{
+    margin: 150px auto ;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.main-Home p{
+    text-align: justify-all;
+    
+
+    font-size:xx-large;
+}
+
+.main-Home img{
+    height: 490px;
+}
+
+@media (max-width:850px){
+    .main-Home{
+        display: block;
+    }
+    .img1{
+        height: 200px;
+    }
+}
+
+
+@media (max-width:600px){
+    .main-Home p{
+        display: block;
+        font-size: large;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:600px){
+    .img1{
+        max-height: 250px;
+        
+}
+}
+
+
+
+/* estilos pages */
+
+/* pagina Carrera */
+
+.carrera{
+    background-color: gray;
+}
+.carrera h1{
+    text-align: center;
+}
+
+.section{
+    margin-top: 30px;
+}
+
+.carrera h2{
+
+    text-align: center;
+    background-color: #6A9C89;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.carrera div {   
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    border: 5px solid #16423C;
+    border-radius: 50px;
+}
+
+.carrera div img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.carrera div p{
+    font-size:x-large;
+}
+
+@media (max-width:850px){
+    .carrera div img{
+        height: 20%;
+        width: 40%;
+        max-width: 200px;
+        max-height: 200Px;
+    }
+}
+
+@media (max-width:600px){
+    .carrera div img{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    .carrera div p{
+        font-size: larger;
+    }
+}
+@media (max-width:850px){
+    .carrera div p{
+    text-align: center;
+    font-size:x-large
+    }
+}
+
+
+
+
+
+
+
+
+
+/* pagina galeria */
+
+.galeria{
+    background-color: gray;
+    
+}
+
+.galeria h1{
+    text-align: center;
+}
+.galeria h2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.colum{
+    flex: 25%;
+    padding: 5px;
+}
+.colum img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+@media (max-width:850px){
+    .colum{
+        flex: 50%;
+    }
+}
+
+@media (max-width:600px){
+    .colum{
+        flex: 100%;
+    }
+}
+
+
+
+.videos{
+    background-color: gray;
+
+}
+.videos h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.videos div{
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+
+.videos div::after{
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25% ;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 20px;
+
+}
+/* pagina familia */
+
+
+.familia section {
+    display: flex;
+    column-gap: 100px;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.familia h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.familia div{
+    width: 250px ;
+    text-align: center;
+    border: 10px solid green;
+    border-radius: 15px;
+}
+
+.familia div img{
+    width: 230px;
+    margin-top: 50px;
+    height: 130px
+
+}
+
+/* pagina datos */
+
+
+.datos{
+    margin-top: 50px;
+    margin: 80px;
+
+}
+.datos p{
+    display: flex;
+
+
+}
+.datos img{
+    width: 350px;
+}
+
+
+.curiosidades{
+    margin-top: 100px;
+    margin: 50px;
+}
+
+.curiosidades p{
+    display: flex;
+}
